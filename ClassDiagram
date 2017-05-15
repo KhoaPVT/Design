@@ -1,0 +1,32 @@
+AUTDPHKMForm
+dPHKM_KKCD: String
+dPHKM_SSCD: String
+dPHKM_FORM: String
+dPHKM_DEPO: String
+dPHKM_PART: String
+dPHKM_SYCD: String
+autDPHKM: AUTDPHKM
+submit: String
+getDPHKM_KKCD(): String
+setDPHKM_KKCD(in String dPHKM_KKCD): void
+getDPHKM_SSCD(): String
+setDPHKM_SSCD(in String dPHKM_SSCD): void
+getDPHKM_FORM(): String
+setDPHKM_FORM(in String dPHKM_FORM): void
+getDPHKM_DEPO(): String
+setDPHKM_DEPO(in String dPHKM_DEPO): void
+getDPHKM_PART(): String
+setDPHKM_PART(in String dPHKM_PART): void
+getDPHKM_SYCD(): String
+setDPHKM_SYCD(in String dPHKM_SYCD): void
+getAUTDPHKM(): AUTDPHKM
+setAUTDPHKM(in AUTDPHKM autDPHKM): void
+getSubmit(): String
+setSubmit(in String submit): void
+
+AUTDPHKMDAO
+addAUTDPHKM(in AUTDPHKM autDPHKM): boolean
+isAUTDPHKM_exist(in AUTDPHKM autDPHKM): boolean
+isDPHKM_KKCD_exist(in String dPHKM_KKCD): boolean
+isDPHKM_DEPO_exist(in String dPHKM_DEPO): boolean
+isDPHKM_PART_exist(in String dPHKM_PART): boolean
